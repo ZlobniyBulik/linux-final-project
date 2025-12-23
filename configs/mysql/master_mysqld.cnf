@@ -1,0 +1,5 @@
+[mysqld]
+server-id = 1
+log_bin = /var/log/mysql/mysql-bin
+binlog_do_db = wordpress
+bind-address = 0.0.0.0

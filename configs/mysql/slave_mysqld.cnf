@@ -1,0 +1,4 @@
+[mysqld]
+server-id = 2
+relay-log = /var/log/mysql/mysql-relay-bin
+read_only = ON
