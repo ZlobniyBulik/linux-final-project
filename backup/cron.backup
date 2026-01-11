@@ -1,0 +1,2 @@
+# Запуск бэкапа каждый день в 02:00
+0 2 * * * /usr/local/bin/mysql_slave_backup.sh
